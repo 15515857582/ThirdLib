@@ -1,0 +1,641 @@
+{\rtf1\ansi\ansicpg936\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fnil\fcharset0 PTSerif-Caption;\f1\fnil\fcharset0 Menlo-Regular;\f2\fnil\fcharset134 STHeitiSC-Light;
+}
+{\colortbl;\red255\green255\blue255;\red0\green116\blue0;\red217\green11\blue0;\red255\green39\blue18;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww24100\viewh13800\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs36 \cf0 http://www.w3school.com.cn/xpath/index.asp\
+\
+\pard\tx1444\pardeftab1444\pardirnatural
+
+\f1\fs48 \cf2 \CocoaLigature0 /*\
+XPath 
+\f2 \'ca\'f5\'d3\'ef\
+\
+\'bd\'e2\'ce\'f6 xml \'b5\'c4\
+
+\f1 \
+\pard\tx1444\pardeftab1444\pardirnatural
+
+\f2 \cf2 \'bd\'da\'b5\'e3\'a3\'a8
+\f1 Node
+\f2 \'a3\'a9
+\f1 \
+
+\f2 \'d4\'da
+\f1  XPath 
+\f2 \'d6\'d0\'a3\'ac\'d3\'d0\'c6\'df\'d6\'d6\'c0\'e0\'d0\'cd\'b5\'c4\'bd\'da\'b5\'e3\'a3\'ba\cf3 \'d4\'aa\'cb\'d8\'a1\'a2\'ca\'f4\'d0\'d4\'a1\'a2\'ce\'c4\'b1\'be\'a1\'a2\cf2 \'c3\'fc\'c3\'fb\'bf\'d5\'bc\'e4\'a1\'a2\'b4\'a6\'c0\'ed\'d6\'b8\'c1\'ee\'a1\'a2\'d7\'a2\'ca\'cd\'d2\'d4\'bc\'b0\cf3 \'ce\'c4\'b5\'b5\'a3\'a8\'b8\'f9\'a3\'a9\'bd\'da\'b5\'e3\cf2 \'a1\'a3
+\f1 XML 
+\f2 \'ce\'c4\'b5\'b5\'ca\'c7\'b1\'bb\'d7\'f7\'ce\'aa\'bd\'da\'b5\'e3\'ca\'f7\'c0\'b4\'b6\'d4\'b4\'fd\'b5\'c4\'a1\'a3\'ca\'f7\'b5\'c4\'b8\'f9\'b1\'bb\'b3\'c6\'ce\'aa\'ce\'c4\'b5\'b5\'bd\'da\'b5\'e3\'bb\'f2\'d5\'df\'b8\'f9\'bd\'da\'b5\'e3\'a1\'a3
+\f1 \
+
+\f2 \'c7\'eb\'bf\'b4\'cf\'c2\'c3\'e6\'d5\'e2\'b8\'f6
+\f1  XML 
+\f2 \'ce\'c4\'b5\'b5\'a3\'ba
+\f1 \
+ \
+<?xml version="1.0" encoding="ISO-8859-1"?>\
+<bookstore>\
+    <book>\
+    		<title lang="
+\f2 \'d6\'d0\'ce\'c4
+\f1 ">ios
+\f2 \'bf\'aa\'b7\'a2\'d6\'b8\'c4\'cf
+\f1 r</title>\
+    		<author>
+\f2 \'c7\'a7\'b7\'e6
+\f1 3G</author> \
+    		<year>2012</year>\
+    		<price>88.88</price>\
+    </book>\
+ 	<book>\
+ 		<title lang="
+\f2 \'d6\'d0\'ce\'c4
+\f1 ">ios
+\f2 \'bf\'aa\'b7\'a2\'d6\'b8\'c4\'cf
+\f1 r</title>\
+ 		<author>
+\f2 \'c7\'a7\'b7\'e6
+\f1 3G</author>\
+ 		<year>2012</year>\
+ 		<price>88.88</price>\
+ 	</book>\
+</bookstore>\
+ \
+
+\f2 \'c9\'cf\'c3\'e6\'b5\'c4
+\f1 XML
+\f2 \'ce\'c4\'b5\'b5\'d6\'d0\'b5\'c4\'bd\'da\'b5\'e3\'c0\'fd\'d7\'d3\'a3\'ba
+\f1 \
+ \
+<bookstore> 
+\f2 \'a3\'a8\'ce\'c4\'b5\'b5\'bd\'da\'b5\'e3\'a3\'a9
+\f1 \
+<author>
+\f2 \'c7\'a7\'b7\'e6
+\f1 3G</author> 
+\f2 \'a3\'a8\'d4\'aa\'cb\'d8\'bd\'da\'b5\'e3\'a3\'a9
+\f1 \
+lang="en" 
+\f2 \'a3\'a8\'ca\'f4\'d0\'d4\'bd\'da\'b5\'e3\'a3\'a9
+\f1  \
+\
+
+\f2 \'bb\'f9\'b1\'be\'d6\'b5\'a3\'a8\'bb\'f2\'b3\'c6\'d4\'ad\'d7\'d3\'d6\'b5\'a3\'ac
+\f1 Atomic value
+\f2 \'a3\'a9
+\f1 \
+\
+
+\f2 \'bb\'f9\'b1\'be\'d6\'b5\'ca\'c7\'ce\'de\'b8\'b8\'bb\'f2\'ce\'de\'d7\'d3\'b5\'c4\'bd\'da\'b5\'e3\'a1\'a3
+\f1 \
+\
+
+\f2 \'bb\'f9\'b1\'be\'d6\'b5\'b5\'c4\'c0\'fd\'d7\'d3\'a3\'ba
+\f1 \
+
+\f2 \'c7\'a7\'b7\'e6
+\f1 3G\
+"
+\f2 \'d6\'d0\'ce\'c4
+\f1 "\
+\
+
+\f2 \'cf\'ee\'c4\'bf\'a3\'a8
+\f1 Item
+\f2 \'a3\'a9
+\f1 \
+ \
+
+\f2 \'cf\'ee\'c4\'bf\'ca\'c7\'bb\'f9\'b1\'be\'d6\'b5\'bb\'f2\'d5\'df\'bd\'da\'b5\'e3\'a1\'a3
+\f1 \
+ \
+
+\f2 \'bd\'da\'b5\'e3\'b9\'d8\'cf\'b5
+\f1 \
+
+\f2 \'b8\'b8\'a3\'a8
+\f1 Parent
+\f2 \'a3\'a9
+\f1 \
+
+\f2 \'c3\'bf\'b8\'f6\'d4\'aa\'cb\'d8\'d2\'d4\'bc\'b0\'ca\'f4\'d0\'d4\'b6\'bc\'d3\'d0\'d2\'bb\'b8\'f6\'b8\'b8\'a1\'a3
+\f1 \
+
+\f2 \'d4\'da\'cf\'c2\'c3\'e6\'b5\'c4\'c0\'fd\'d7\'d3\'d6\'d0\'a3\'ac
+\f1 book 
+\f2 \'d4\'aa\'cb\'d8\'ca\'c7
+\f1  title
+\f2 \'a1\'a2
+\f1 author
+\f2 \'a1\'a2
+\f1 year 
+\f2 \'d2\'d4\'bc\'b0
+\f1  price 
+\f2 \'d4\'aa\'cb\'d8\'b5\'c4\'b8\'b8\'a3\'ba
+\f1 \
+ <book>\
+     <title lang="
+\f2 \'d6\'d0\'ce\'c4
+\f1 ">ios
+\f2 \'bf\'aa\'b7\'a2\'d6\'b8\'c4\'cf
+\f1 r</title>\
+     <author>
+\f2 \'c7\'a7\'b7\'e6
+\f1 3G</author> \
+     <year>2012</year>\
+     <price>88.88</price>\
+ </book>\
+
+\f2 \'d7\'d3\'a3\'a8
+\f1 Children
+\f2 \'a3\'a9
+\f1 \
+
+\f2 \'d4\'aa\'cb\'d8\'bd\'da\'b5\'e3\'bf\'c9\'d3\'d0\'c1\'e3\'b8\'f6\'a1\'a2\'d2\'bb\'b8\'f6\'bb\'f2\'b6\'e0\'b8\'f6\'d7\'d3\'a1\'a3
+\f1 \
+
+\f2 \'d4\'da\'cf\'c2\'c3\'e6\'b5\'c4\'c0\'fd\'d7\'d3\'d6\'d0\'a3\'ac
+\f1 title
+\f2 \'a1\'a2
+\f1 author
+\f2 \'a1\'a2
+\f1 year 
+\f2 \'d2\'d4\'bc\'b0
+\f1  price 
+\f2 \'d4\'aa\'cb\'d8\'b6\'bc\'ca\'c7
+\f1  book 
+\f2 \'d4\'aa\'cb\'d8\'b5\'c4\'d7\'d3\'a3\'ba
+\f1 \
+ <book>\
+     <title lang="
+\f2 \'d6\'d0\'ce\'c4
+\f1 ">ios
+\f2 \'bf\'aa\'b7\'a2\'d6\'b8\'c4\'cf
+\f1 r</title>\
+     <author>
+\f2 \'c7\'a7\'b7\'e6
+\f1 3G</author> \
+     <year>2012</year>\
+     <price>88.88</price>\
+ </book>\
+
+\f2 \'cd\'ac\'b0\'fb
+\f1 /
+\f2 \'d0\'d6\'b5\'dc\'a3\'a8
+\f1 Sibling
+\f2 \'a3\'a9
+\f1 \
+
+\f2 \'d3\'b5\'d3\'d0\'cf\'e0\'cd\'ac\'b5\'c4\'b8\'b8\'b5\'c4\'bd\'da\'b5\'e3
+\f1 \
+
+\f2 \'d4\'da\'cf\'c2\'c3\'e6\'b5\'c4\'c0\'fd\'d7\'d3\'d6\'d0\'a3\'ac
+\f1 title
+\f2 \'a1\'a2
+\f1 author
+\f2 \'a1\'a2
+\f1 year 
+\f2 \'d2\'d4\'bc\'b0
+\f1  price 
+\f2 \'d4\'aa\'cb\'d8\'b6\'bc\'ca\'c7\'cd\'ac\'b0\'fb\'a3\'ba
+\f1 \
+ <book>\
+     <title lang="
+\f2 \'d6\'d0\'ce\'c4
+\f1 ">ios
+\f2 \'bf\'aa\'b7\'a2\'d6\'b8\'c4\'cf
+\f1 r</title>\
+     <author>
+\f2 \'c7\'a7\'b7\'e6
+\f1 3G</author> \
+     <year>2012</year>\
+     <price>88.88</price>\
+ </book>\
+
+\f2 \'cf\'c8\'b1\'b2\'a3\'a8
+\f1 Ancestor
+\f2 \'a3\'a9
+\f1 \
+
+\f2 \'c4\'b3\'bd\'da\'b5\'e3\'b5\'c4\'b8\'b8\'a1\'a2\'b8\'b8\'b5\'c4\'b8\'b8\'a3\'ac\'b5\'c8\'b5\'c8\'a1\'a3
+\f1 \
+
+\f2 \'d4\'da\'cf\'c2\'c3\'e6\'b5\'c4\'c0\'fd\'d7\'d3\'d6\'d0\'a3\'ac
+\f1 title 
+\f2 \'d4\'aa\'cb\'d8\'b5\'c4\'cf\'c8\'b1\'b2\'ca\'c7
+\f1  book 
+\f2 \'d4\'aa\'cb\'d8\'ba\'cd
+\f1  bookstore 
+\f2 \'d4\'aa\'cb\'d8\'a3\'ba
+\f1 \
+ <bookstore>\
+     <book>\
+         <title lang="
+\f2 \'d6\'d0\'ce\'c4
+\f1 ">ios
+\f2 \'bf\'aa\'b7\'a2\'d6\'b8\'c4\'cf
+\f1 r</title>\
+         <author>
+\f2 \'c7\'a7\'b7\'e6
+\f1 3G</author> \
+         <year>2012</year>\
+         <price>88.88</price>\
+     </book>\
+ </bookstore>\
+
+\f2 \'ba\'f3\'b4\'fa\'a3\'a8
+\f1 Descendant
+\f2 \'a3\'a9
+\f1 \
+
+\f2 \'c4\'b3\'b8\'f6\'bd\'da\'b5\'e3\'b5\'c4\'d7\'d3\'a3\'ac\'d7\'d3\'b5\'c4\'d7\'d3\'a3\'ac\'b5\'c8\'b5\'c8\'a1\'a3
+\f1 \
+
+\f2 \'d4\'da\'cf\'c2\'c3\'e6\'b5\'c4\'c0\'fd\'d7\'d3\'d6\'d0\'a3\'ac
+\f1 bookstore 
+\f2 \'b5\'c4\'ba\'f3\'b4\'fa\'ca\'c7
+\f1  book
+\f2 \'a1\'a2
+\f1 title
+\f2 \'a1\'a2
+\f1 author
+\f2 \'a1\'a2
+\f1 year 
+\f2 \'d2\'d4\'bc\'b0
+\f1  price 
+\f2 \'d4\'aa\'cb\'d8\'a3\'ba
+\f1 \
+ <bookstore>\
+ 	<book>\
+ 		<title lang="
+\f2 \'d6\'d0\'ce\'c4
+\f1 ">ios
+\f2 \'bf\'aa\'b7\'a2\'d6\'b8\'c4\'cf
+\f1 r</title>\
+ 		<author>
+\f2 \'c7\'a7\'b7\'e6
+\f1 3G</author> \
+ 		<year>2012</year>\
+ 		<price>88.88</price>\
+ 	</book>\
+ </bookstore>\
+\
+*/\cf0 \
+\
+\pard\tx1444\pardeftab1444\pardirnatural
+\cf4 //xPath
+\f2 \'d3\'ef\'b7\'a8
+\f1 \cf0 \
+\
+\pard\tx1444\pardeftab1444\pardirnatural
+\cf2 /*\
+ XML 
+\f2 \'ca\'b5\'c0\'fd\'ce\'c4\'b5\'b5
+\f1 \
+ 
+\f2 \'ce\'d2\'c3\'c7\'bd\'ab\'d4\'da\'cf\'c2\'c3\'e6\'b5\'c4\'c0\'fd\'d7\'d3\'d6\'d0\'ca\'b9\'d3\'c3\'d5\'e2\'b8\'f6
+\f1  XML 
+\f2 \'ce\'c4\'b5\'b5\'a1\'a3
+\f1 \
+ <?xml version="1.0" encoding="ISO-8859-1"?>\
+ <bookstore>\
+     <book>\
+        <title lang="eng">Harry Potter</title>\
+        <price>29.99</price>\
+     </book>\
+ \
+     <book>\
+        <title lang="eng">Learning XML</title>\
+        <price>39.95</price>\
+     </book>\
+     <title lang="eng">\
+		<book>\
+        		<title lang="eng">Learning XML</title>\
+        		<price>39.95</price>\
+    		 </book>\
+\
+	</title>\
+ </bookstore>\
+<book>\
+        <title lang="eng">Learning XML</title>\
+        <price>39.95</price>\
+ </book>\
+\
+\
+ \
+ 
+\f2 \'d1\'a1\'c8\'a1\'bd\'da\'b5\'e3
+\f1 \
+ XPath 
+\f2 \'ca\'b9\'d3\'c3\'c2\'b7\'be\'b6\'b1\'ed\'b4\'ef\'ca\'bd\'d4\'da
+\f1  XML 
+\f2 \'ce\'c4\'b5\'b5\'d6\'d0\'d1\'a1\'c8\'a1\'bd\'da\'b5\'e3\'a1\'a3\'bd\'da\'b5\'e3\'ca\'c7\'cd\'a8\'b9\'fd\'d1\'d8\'d7\'c5\'c2\'b7\'be\'b6\'bb\'f2\'d5\'df
+\f1  step 
+\f2 \'c0\'b4\'d1\'a1\'c8\'a1\'b5\'c4\'a1\'a3
+\f1 \
+ 
+\f2 \'cf\'c2\'c3\'e6\'c1\'d0\'b3\'f6\'c1\'cb\'d7\'ee\'d3\'d0\'d3\'c3\'b5\'c4\'c2\'b7\'be\'b6\'b1\'ed\'b4\'ef\'ca\'bd\'a3\'ba
+\f1 \
+ 
+\f2 \'b1\'ed\'b4\'ef\'ca\'bd
+\f1 	
+\f2 \'c3\'e8\'ca\'f6
+\f1 \
+ nodename	
+\f2 \'d1\'a1\'c8\'a1\'b4\'cb\'bd\'da\'b5\'e3\'b5\'c4\'cb\'f9\'d3\'d0\'d7\'d3\'bd\'da\'b5\'e3\'a1\'a3
+\f1 \
+ /	
+\f2 \'b4\'d3\'b8\'f9\'bd\'da\'b5\'e3\'d1\'a1\'c8\'a1\'a1\'a3
+\f1 \
+ //	
+\f2 \'b4\'d3\'c6\'a5\'c5\'e4\'d1\'a1\'d4\'f1\'b5\'c4\'b5\'b1\'c7\'b0\'bd\'da\'b5\'e3\'d1\'a1\'d4\'f1\'ce\'c4\'b5\'b5\'d6\'d0\'b5\'c4\'bd\'da\'b5\'e3\'a3\'ac\'b6\'f8\'b2\'bb\'bf\'bc\'c2\'c7\'cb\'fc\'c3\'c7\'b5\'c4\'ce\'bb\'d6\'c3\'a1\'a3
+\f1 \
+ .	
+\f2 \'d1\'a1\'c8\'a1\'b5\'b1\'c7\'b0\'bd\'da\'b5\'e3\'a1\'a3
+\f1 \
+ ..	
+\f2 \'d1\'a1\'c8\'a1\'b5\'b1\'c7\'b0\'bd\'da\'b5\'e3\'b5\'c4\'b8\'b8\'bd\'da\'b5\'e3\'a1\'a3
+\f1 \
+ @	
+\f2 \'d1\'a1\'c8\'a1\'ca\'f4\'d0\'d4\'a1\'a3
+\f1 \
+ \
+ 
+\f2 \'ca\'b5\'c0\'fd
+\f1 \
+ 
+\f2 \'d4\'da\'cf\'c2\'c3\'e6\'b5\'c4\'b1\'ed\'b8\'f1\'d6\'d0\'a3\'ac\'ce\'d2\'c3\'c7\'d2\'d1\'c1\'d0\'b3\'f6\'c1\'cb\'d2\'bb\'d0\'a9\'c2\'b7\'be\'b6\'b1\'ed\'b4\'ef\'ca\'bd\'d2\'d4\'bc\'b0\'b1\'ed\'b4\'ef\'ca\'bd\'b5\'c4\'bd\'e1\'b9\'fb\'a3\'ba
+\f1 \
+ 
+\f2 \'c2\'b7\'be\'b6\'b1\'ed\'b4\'ef\'ca\'bd
+\f1 	
+\f2 \'bd\'e1\'b9\'fb
+\f1 \
+ \
+ bookstore	
+\f2 \'d1\'a1\'c8\'a1
+\f1  bookstore 
+\f2 \'d4\'aa\'cb\'d8\'b5\'c4\'cb\'f9\'d3\'d0\'d7\'d3\'bd\'da\'b5\'e3\'a1\'a3
+\f1 \
+ \
+ /bookstore	
+\f2 \'d1\'a1\'c8\'a1\'b8\'f9\'d4\'aa\'cb\'d8
+\f1  bookstore
+\f2 \'a1\'a3\
+
+\f1 \
+ 
+\f2 \'d7\'a2\'ca\'cd\'a3\'ba\'bc\'d9\'c8\'e7\'c2\'b7\'be\'b6\'c6\'f0\'ca\'bc\'d3\'da\'d5\'fd\'d0\'b1\'b8\'dc
+\f1 ( / )
+\f2 \'a3\'ac\'d4\'f2\'b4\'cb\'c2\'b7\'be\'b6\'ca\'bc\'d6\'d5\'b4\'fa\'b1\'ed\'b5\'bd\'c4\'b3\'d4\'aa\'cb\'d8\'b5\'c4\'be\'f8\'b6\'d4\'c2\'b7\'be\'b6\'a3\'a1
+\f1 \
+ \
+ /bookstore/book	
+\f2 \'d1\'a1\'c8\'a1\'ca\'f4\'d3\'da
+\f1  bookstore 
+\f2 \'b5\'c4\'d7\'d3\'d4\'aa\'cb\'d8\'b5\'c4\'cb\'f9\'d3\'d0
+\f1  book 
+\f2 \'d4\'aa\'cb\'d8\'a1\'a3\cf3 \'a3\'a8\'d6\'b1\'bd\'d3\'d7\'d3\'bd\'da\'b5\'e3\'a3\'a9
+\f1 \cf2 \
+ \
+ //book	
+\f2 \'d1\'a1\'c8\'a1\'cb\'f9\'d3\'d0
+\f1  book 
+\f2 \'d7\'d3\'d4\'aa\'cb\'d8\'a3\'ac\'b6\'f8\'b2\'bb\'b9\'dc\'cb\'fc\'c3\'c7\'d4\'da\'ce\'c4\'b5\'b5\'d6\'d0\'b5\'c4\'ce\'bb\'d6\'c3\'a1\'a3\'a3\'a8\cf3 \'d4\'da\'d5\'fb\'b8\'f6\'ce\'c4\'b5\'b5\'d6\'d0\'d5\'d2\'a3\'a9\
+
+\f1 \cf2  \
+ /bookstore//book	
+\f2 \'d1\'a1\'d4\'f1\'ca\'f4\'d3\'da
+\f1  bookstore 
+\f2 \'d4\'aa\'cb\'d8\'b5\'c4\'ba\'f3\'b4\'fa\'b5\'c4\'cb\'f9\'d3\'d0
+\f1  book 
+\f2 \'d4\'aa\'cb\'d8\'a3\'ac\'b6\'f8\'b2\'bb\'b9\'dc\'cb\'fc\'c3\'c7\'ce\'bb\'d3\'da
+\f1  bookstore 
+\f2 \'d6\'ae\'cf\'c2\'b5\'c4\'ca\'b2\'c3\'b4\'ce\'bb\'d6\'c3\'a1\'a3
+\f1 \
+ \
+\pard\tx1444\tx16344\tx17533\pardeftab1444\pardirnatural
+\cf2  //@lang   
+\f2 \'d1\'a1\'c8\'a1\'c3\'fb\'ce\'aa
+\f1  lang 
+\f2 \'b5\'c4\'cb\'f9\'d3\'d0\'ca\'f4\'d0\'d4\'a1\'a3\cf3 \'a3\'a8\'b2\'bb\'b9\'dc\'c4\'c4\'b8\'f6
+\f1  
+\f2 \'bd\'da\'b5\'e3\'cf\'c2\'b5\'c4\'a3\'a9
+\f1 \cf2 \
+\pard\tx1444\pardeftab1444\pardirnatural
+\cf2  \
+ 
+\f2 \'c3\'e8\'ca\'f6\'c1\'cb\'ce\'d2\'c3\'c7\'d2\'aa\'b5\'c3\'bd\'da\'b5\'e3\'b7\'b6\'ce\'a7
+\f1 \
+ \
+ 
+\f2 \'ce\'bd\'d3\'ef\'a3\'a8
+\f1 Predicates
+\f2 \'a3\'a9
+\f1 \
+ 
+\f2 \'ce\'bd\'d3\'ef\'d3\'c3\'c0\'b4\'b2\'e9\'d5\'d2\'c4\'b3\'b8\'f6\'cc\'d8\'b6\'a8\'b5\'c4\'bd\'da\'b5\'e3\'bb\'f2\'d5\'df\'b0\'fc\'ba\'ac\'c4\'b3\'b8\'f6\'d6\'b8\'b6\'a8\'b5\'c4\'d6\'b5\'b5\'c4\'bd\'da\'b5\'e3\'a1\'a3
+\f1 \
+ 
+\f2 \'ce\'bd\'d3\'ef\'b1\'bb\'c7\'b6\'d4\'da\'b7\'bd\'c0\'a8\'ba\'c5\'d6\'d0\'a1\'a3
+\f1 \
+ \
+ 
+\f2 \'ca\'b5\'c0\'fd
+\f1 \
+ 
+\f2 \'d4\'da\'cf\'c2\'c3\'e6\'b5\'c4\'b1\'ed\'b8\'f1\'d6\'d0\'a3\'ac\'ce\'d2\'c3\'c7\'c1\'d0\'b3\'f6\'c1\'cb\'b4\'f8\'d3\'d0\'ce\'bd\'d3\'ef\'b5\'c4\'d2\'bb\'d0\'a9\'c2\'b7\'be\'b6\'b1\'ed\'b4\'ef\'ca\'bd\'a3\'ac\'d2\'d4\'bc\'b0\'b1\'ed\'b4\'ef\'ca\'bd\'b5\'c4\'bd\'e1\'b9\'fb\'a3\'ba
+\f1 \
+ 
+\f2 \'c2\'b7\'be\'b6\'b1\'ed\'b4\'ef\'ca\'bd
+\f1 	
+\f2 \'bd\'e1\'b9\'fb
+\f1 \
+ /bookstore/book[1]	
+\f2 \'d1\'a1\'c8\'a1\'ca\'f4\'d3\'da
+\f1  bookstore 
+\f2 \'d7\'d3\'d4\'aa\'cb\'d8\'b5\'c4\'b5\'da\'d2\'bb\'b8\'f6
+\f1  book 
+\f2 \'d4\'aa\'cb\'d8\'a1\'a3
+\f1 \
+ \
+ /bookstore/book[last()]	
+\f2 \'d1\'a1\'c8\'a1\'ca\'f4\'d3\'da
+\f1  bookstore 
+\f2 \'d7\'d3\'d4\'aa\'cb\'d8\'b5\'c4\'d7\'ee\'ba\'f3\'d2\'bb\'b8\'f6
+\f1  book 
+\f2 \'d4\'aa\'cb\'d8\'a1\'a3
+\f1 \
+ \
+ /bookstore/book[last()-1]	
+\f2 \'d1\'a1\'c8\'a1\'ca\'f4\'d3\'da
+\f1  bookstore 
+\f2 \'d7\'d3\'d4\'aa\'cb\'d8\'b5\'c4\'b5\'b9\'ca\'fd\'b5\'da\'b6\'fe\'b8\'f6
+\f1  book 
+\f2 \'d4\'aa\'cb\'d8\'a1\'a3
+\f1 \
+ \
+ /bookstore/book[position()<3]	
+\f2 \'d1\'a1\'c8\'a1\'d7\'ee\'c7\'b0\'c3\'e6\'b5\'c4\'c1\'bd\'b8\'f6\'ca\'f4\'d3\'da
+\f1  bookstore 
+\f2 \'d4\'aa\'cb\'d8\'b5\'c4\'d7\'d3\'d4\'aa\'cb\'d8\'b5\'c4
+\f1  book 
+\f2 \'d4\'aa\'cb\'d8\'a1\'a3
+\f1 \
+ \
+ //title[@lang]	
+\f2 \'d1\'a1\'c8\'a1\'cb\'f9\'d3\'d0\'d3\'b5\'d3\'d0\'c3\'fb\'ce\'aa
+\f1  lang 
+\f2 \'b5\'c4\'ca\'f4\'d0\'d4\'b5\'c4
+\f1  title 
+\f2 \'d4\'aa\'cb\'d8\'a1\'a3\cf3 \'ca\'f4\'d0\'d4\'c3\'fb\'c3\'bb\'d3\'d0\'d6\'d8\'c3\'fb\'b5\'c4
+\f1 \cf2 \
+ \
+ //title[@lang='eng']	
+\f2 \'d1\'a1\'c8\'a1\'cb\'f9\'d3\'d0
+\f1  title 
+\f2 \'d4\'aa\'cb\'d8\'a3\'ac\'c7\'d2\'d5\'e2\'d0\'a9\'d4\'aa\'cb\'d8\'d3\'b5\'d3\'d0\'d6\'b5\'ce\'aa
+\f1  eng 
+\f2 \'b5\'c4
+\f1  lang 
+\f2 \'ca\'f4\'d0\'d4\'a1\'a3
+\f1 \
+ \
+ /bookstore/book[price>35.00]	
+\f2 \'d1\'a1\'c8\'a1
+\f1  bookstore 
+\f2 \'d4\'aa\'cb\'d8\'b5\'c4\'cb\'f9\'d3\'d0
+\f1  book 
+\f2 \'d4\'aa\'cb\'d8\'a3\'ac\'c7\'d2\'c6\'e4\'d6\'d0\'b5\'c4
+\f1  price 
+\f2 \'d4\'aa\'cb\'d8\'b5\'c4\'d6\'b5\'d0\'eb\'b4\'f3\'d3\'da
+\f1  35.00
+\f2 \'a1\'a3
+\f1 \
+ \
+ /bookstore/book[price>35.00]/title	
+\f2 \'d1\'a1\'c8\'a1
+\f1  bookstore 
+\f2 \'d4\'aa\'cb\'d8\'d6\'d0\'b5\'c4
+\f1  book 
+\f2 \'d4\'aa\'cb\'d8\'b5\'c4\'cb\'f9\'d3\'d0
+\f1  title 
+\f2 \'d4\'aa\'cb\'d8\'a3\'ac\'c7\'d2\'c6\'e4\'d6\'d0\'b5\'c4
+\f1  price 
+\f2 \'d4\'aa\'cb\'d8\'b5\'c4\'d6\'b5\'d0\'eb\'b4\'f3\'d3\'da
+\f1  35.00
+\f2 \'a1\'a3
+\f1 \
+ \
+ 
+\f2 \'d1\'a1\'c8\'a1\'ce\'b4\'d6\'aa\'bd\'da\'b5\'e3
+\f1 \
+ XPath 
+\f2 \'cd\'a8\'c5\'e4\'b7\'fb\'bf\'c9\'d3\'c3\'c0\'b4\'d1\'a1\'c8\'a1\'ce\'b4\'d6\'aa\'b5\'c4
+\f1  XML 
+\f2 \'d4\'aa\'cb\'d8\'a1\'a3
+\f1 \
+ 
+\f2 \'cd\'a8\'c5\'e4\'b7\'fb
+\f1 	
+\f2 \'c3\'e8\'ca\'f6
+\f1 \
+ *	
+\f2 \'c6\'a5\'c5\'e4\'c8\'ce\'ba\'ce\'d4\'aa\'cb\'d8\'bd\'da\'b5\'e3\'a1\'a3
+\f1 \
+ @*	
+\f2 \'c6\'a5\'c5\'e4\'c8\'ce\'ba\'ce\'ca\'f4\'d0\'d4\'bd\'da\'b5\'e3\'a1\'a3
+\f1 \
+ node()	
+\f2 \'c6\'a5\'c5\'e4\'c8\'ce\'ba\'ce\'c0\'e0\'d0\'cd\'b5\'c4\'bd\'da\'b5\'e3\'a1\'a3
+\f1 \
+ \
+ 
+\f2 \'ca\'b5\'c0\'fd
+\f1 \
+ 
+\f2 \'d4\'da\'cf\'c2\'c3\'e6\'b5\'c4\'b1\'ed\'b8\'f1\'d6\'d0\'a3\'ac\'ce\'d2\'c3\'c7\'c1\'d0\'b3\'f6\'c1\'cb\'d2\'bb\'d0\'a9\'c2\'b7\'be\'b6\'b1\'ed\'b4\'ef\'ca\'bd\'a3\'ac\'d2\'d4\'bc\'b0\'d5\'e2\'d0\'a9\'b1\'ed\'b4\'ef\'ca\'bd\'b5\'c4\'bd\'e1\'b9\'fb\'a3\'ba
+\f1 \
+ 
+\f2 \'c2\'b7\'be\'b6\'b1\'ed\'b4\'ef\'ca\'bd
+\f1 	
+\f2 \'bd\'e1\'b9\'fb
+\f1 \
+ \
+ /bookstore/*	
+\f2 \'d1\'a1\'c8\'a1
+\f1  bookstore 
+\f2 \'d4\'aa\'cb\'d8\'b5\'c4\'cb\'f9\'d3\'d0\'d7\'d3\'d4\'aa\'cb\'d8\'a1\'a3
+\f1 \
+ \
+ //*	
+\f2 \'d1\'a1\'c8\'a1\'ce\'c4\'b5\'b5\'d6\'d0\'b5\'c4\'cb\'f9\'d3\'d0\'d4\'aa\'cb\'d8\'a1\'a3
+\f1 \
+ \
+ //title[@*]	
+\f2 \'d1\'a1\'c8\'a1\'cb\'f9\'d3\'d0\'b4\'f8\'d3\'d0\'ca\'f4\'d0\'d4\'b5\'c4
+\f1  title 
+\f2 \'d4\'aa\'cb\'d8\'a1\'a3
+\f1 \
+ \
+ 
+\f2 \'d1\'a1\'c8\'a1\'c8\'f4\'b8\'c9\'c2\'b7\'be\'b6
+\f1 \
+ 
+\f2 \'cd\'a8\'b9\'fd\'d4\'da\'c2\'b7\'be\'b6\'b1\'ed\'b4\'ef\'ca\'bd\'d6\'d0\'ca\'b9\'d3\'c3
+\f1 \'93|\'94
+\f2 \'d4\'cb\'cb\'e3\'b7\'fb\'a3\'ac\'c4\'fa\'bf\'c9\'d2\'d4\'d1\'a1\'c8\'a1\'c8\'f4\'b8\'c9\'b8\'f6\'c2\'b7\'be\'b6\'a1\'a3
+\f1 \
+ 
+\f2 \'ca\'b5\'c0\'fd
+\f1 \
+ 
+\f2 \'d4\'da\'cf\'c2\'c3\'e6\'b5\'c4\'b1\'ed\'b8\'f1\'d6\'d0\'a3\'ac\'ce\'d2\'c3\'c7\'c1\'d0\'b3\'f6\'c1\'cb\'d2\'bb\'d0\'a9\'c2\'b7\'be\'b6\'b1\'ed\'b4\'ef\'ca\'bd\'a3\'ac\'d2\'d4\'bc\'b0\'d5\'e2\'d0\'a9\'b1\'ed\'b4\'ef\'ca\'bd\'b5\'c4\'bd\'e1\'b9\'fb\'a3\'ba
+\f1 \
+ 
+\f2 \'c2\'b7\'be\'b6\'b1\'ed\'b4\'ef\'ca\'bd
+\f1 	
+\f2 \'bd\'e1\'b9\'fb
+\f1 \
+ \
+ //book/title | //book/price	
+\f2 \'d1\'a1\'c8\'a1
+\f1  book 
+\f2 \'d4\'aa\'cb\'d8\'b5\'c4\'cb\'f9\'d3\'d0
+\f1  title 
+\f2 \'ba\'cd
+\f1  price 
+\f2 \'d4\'aa\'cb\'d8\'a1\'a3
+\f1 \
+ \
+ //title | //price	
+\f2 \'d1\'a1\'c8\'a1\'ce\'c4\'b5\'b5\'d6\'d0\'b5\'c4\'cb\'f9\'d3\'d0
+\f1  title 
+\f2 \'ba\'cd
+\f1  price 
+\f2 \'d4\'aa\'cb\'d8\'a1\'a3
+\f1 \
+ \
+ /bookstore/book/title | //price	
+\f2 \'d1\'a1\'c8\'a1\'ca\'f4\'d3\'da
+\f1  bookstore 
+\f2 \'d4\'aa\'cb\'d8\'b5\'c4
+\f1  book 
+\f2 \'d4\'aa\'cb\'d8\'b5\'c4\'cb\'f9\'d3\'d0
+\f1  title 
+\f2 \'d4\'aa\'cb\'d8\'a3\'ac\'d2\'d4\'bc\'b0\'ce\'c4\'b5\'b5\'d6\'d0\'cb\'f9\'d3\'d0\'b5\'c4
+\f1  price 
+\f2 \'d4\'aa\'cb\'d8\'a1\'a3
+\f1 \
+ */\cf0 \
+\
+\
+\
+\
+\
+\
+\
+}
